@@ -5,7 +5,8 @@ part 'api_service.chopper.dart';
 @ChopperApi()
 abstract class ApiService extends ChopperService {
   static const BASE_URL = "http://newsapi.org/v2";
-  static const API_KEY = "b1fc129f0c354d4cbe2ce9585c4ad3df";
+  //取得apiを入れてください
+  static const API_KEY = "";
 
   static ApiService create(){
     final client = ChopperClient(
